@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #18191F;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 60px;
+    color: #575757;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    color: #707070;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.blue-text {
+    color: #048DF7;
+}
+
+.container {
+    max-width: 1150px;
+    margin: auto;
+}
+
+#mainNav {
+    background: #EBF8FF;
+    padding: 12px 0;
+}
+
+.logo {
+    color: #18191F;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.logo .logo-part {
+    color: #048DF7;
+    font-weight: 700;
+}
+
+.nav-bar .nav-item {
+    display: inline-block;
+}
+
+.nav-bar .nav-item .nav-link {
+    padding-left: 20px;
+    color: #18191F;
+    font-size: 18px;
+}
+
+.nav-bar .nav-item .nav-btn {
+    margin-left: 20px;
+    padding: 15px 40px;
+    color: #fff;
+    box-shadow: none;
+}
+
+.btn {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #15BBFC, #048DF7);
+    font-weight: 500;
+    color: #fff;
+    box-shadow: 1px 1px 20px #8edfff;
+    letter-spacing: 1px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+.hero {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.hero h4 {
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 80px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about {
+    background: url(images/about-bg.jpg);
+    background-size: cover;
+    padding-top: 70px;
+}
+
+.about-image img {
+    width: 60%;
+    margin-bottom: -4px;
+}
+
+.about-text h2 {
+    padding-top: 70px;
+}
+
+.about-text p {
+    line-height: 32px;
+    margin-bottom: 80px;
+}
+
+.recipie {
+    padding: 70px 0 120px 0;
+}
+
+.recipie .sub-title {
+    max-width: 800px;
+    line-height: 30px;
+    margin: auto;
+}
+
+.recipie .card {
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px rgb(223, 222, 222);
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.recipie .d-flex {
+    justify-content: space-between;
+}
+
+.recipie .card img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.recipie .card p {
+    line-height: 30px;
+}
+
+.counter {
+    padding: 40px 150px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px rgb(223, 222, 222);
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.counter h3 {
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.best-ofus {
+    padding: 70px 0;
+    background: #EBF8FF;
+}
+
+.best-ofus-text h2 {
+    margin-top: 50px;
+}
+
+.best-ofus-text ul {
+    padding-left: 0;
+    margin-bottom: 80px;
+}
+
+.best-ofus-text ul img {
+    width: 18px;
+}
+
+.best-ofus-image img {
+    width: 100%;
+}
+
+.subscribe {
+    padding: 70px 0 100px 0;
+    text-align: center;
+}
+
+.subscribe .container-small {
+    max-width: 700px;
+    margin: auto;
+}
+
+.subscribe form {
+    margin-top: 50px;
+}
+
+.subscribe form input[type='email'] {
+    width: 60%;
+    margin-right: 5%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 2px solid #048DF7;
+    font-size: 18px;
+}
+
+.subscribe form input[type='email']::placeholder {
+    color: #ccc;
+}
+
+.subscribe form input[type='submit'] {
+    width: 35%;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #15BBFC, #048DF7);
+    font-weight: 500;
+    color: #fff;
+    box-shadow: 1px 1px 20px #8edfff;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 18px;
+}
+
+.subscribe form input[type='submit']:hover {
+    cursor: pointer;
+}
+
+footer {
+    background: #0B0D17;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+
+footer .footer-logo {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+footer .footer-logo a {
+    color: #5B5B5B;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: 14px;
+}
